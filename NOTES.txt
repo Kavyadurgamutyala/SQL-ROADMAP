@@ -1,0 +1,94 @@
+SQL DAY 1
+
+DATABASE BASICS
+
+What is a Database?
+
+A database is an organized collection of data.
+
+Examples:
+
+Student Data
+Employee Data
+Product Data
+Customer Data
+
+What is a Table?
+
+A table stores data in rows and columns.
+
+Example:
+
+Employee
+
+employee_id
+employee_name
+salary
+
+What is a Row?
+
+A row represents a single record in a table.
+
+Example:
+
+1, Kavya, 60000
+
+What is a Column?
+
+A column represents an attribute of a table.
+
+Examples:
+
+employee_id
+employee_name
+salary
+
+What is a Primary Key?
+
+A primary key uniquely identifies each row in a table.
+
+Characteristics:
+
+1. Cannot contain duplicate values.
+2. Cannot contain NULL values.
+3. Uniquely identifies records.
+
+Example:
+
+employee_id
+
+SQL Commands Learned
+
+SELECT
+
+Used to retrieve data from a table.
+
+Syntax:
+
+SELECT column_name
+FROM table_name;
+
+WHERE
+
+Used to filter records.
+
+Syntax:
+
+SELECT column_name
+FROM table_name
+WHERE condition;
+
+AND
+
+Used to combine multiple conditions.
+
+Syntax:
+
+SELECT *
+FROM table_name
+WHERE condition1
+AND condition2;
+
+One Line Revision
+
+A database stores organized data in tables consisting of rows and columns.
