@@ -1,0 +1,131 @@
+INTERVIEW QUESTIONS
+
+1. What is SELECT?
+
+SELECT is used to retrieve data from a table.
+
+Example:
+
+SELECT name
+FROM Employee;
+
+---------------------------------
+
+2. What is WHERE?
+
+WHERE filters rows based on a condition.
+
+Example:
+
+SELECT *
+FROM Employee
+WHERE salary > 50000;
+
+---------------------------------
+
+3. Difference Between AND and OR?
+
+AND
+
+All conditions must be true.
+
+OR
+
+At least one condition must be true.
+
+---------------------------------
+
+4. What is DISTINCT?
+
+DISTINCT removes duplicate values.
+
+Example:
+
+SELECT DISTINCT department
+FROM Employee;
+
+---------------------------------
+
+5. What is ORDER BY?
+
+ORDER BY sorts records.
+
+ASC
+
+Ascending order.
+
+DESC
+
+Descending order.
+
+---------------------------------
+
+6. What is LENGTH()?
+
+LENGTH() returns the number of characters in a string.
+
+Example:
+
+LENGTH('JAVA')
+
+Output:
+
+4
+
+---------------------------------
+
+7. How Do You Sort Data Ascending?
+
+ORDER BY column_name ASC;
+
+---------------------------------
+
+8. How Do You Sort Data Descending?
+
+ORDER BY column_name DESC;
+
+---------------------------------
+
+9. Why Use DISTINCT?
+
+To eliminate duplicate values from results.
+
+---------------------------------
+
+10. What Is The Execution Order?
+
+FROM
+
+↓
+
+WHERE
+
+↓
+
+SELECT
+
+↓
+
+ORDER BY
+
+---------------------------------
+
+30 SECOND REVISION
+
+✅ SELECT = Retrieve Data
+
+✅ WHERE = Filter Data
+
+✅ AND = All Conditions True
+
+✅ OR = Any Condition True
+
+✅ DISTINCT = Remove Duplicates
+
+✅ ORDER BY = Sort Data
+
+✅ ASC = Ascending
+
+✅ DESC = Descending
+
+✅ LENGTH() = String Length

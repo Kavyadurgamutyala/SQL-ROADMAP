@@ -1,0 +1,146 @@
+SQL DAY 02
+
+SELECT
+
+Used to retrieve data from a table.
+
+Syntax:
+
+SELECT column_name
+FROM table_name;
+
+Example:
+
+SELECT name
+FROM World;
+
+---------------------------------
+
+WHERE
+
+Used to filter rows.
+
+Syntax:
+
+SELECT column_name
+FROM table_name
+WHERE condition;
+
+Example:
+
+SELECT *
+FROM World
+WHERE population > 25000000;
+
+---------------------------------
+
+AND
+
+Used when all conditions must be true.
+
+Example:
+
+SELECT *
+FROM Products
+WHERE low_fats = 'Y'
+AND recyclable = 'Y';
+
+---------------------------------
+
+OR
+
+Used when at least one condition must be true.
+
+Example:
+
+SELECT *
+FROM World
+WHERE area >= 3000000
+OR population >= 25000000;
+
+---------------------------------
+
+DISTINCT
+
+Removes duplicate values.
+
+Example:
+
+SELECT DISTINCT author_id
+FROM Views;
+
+Without DISTINCT:
+
+1
+1
+1
+2
+
+With DISTINCT:
+
+1
+2
+
+---------------------------------
+
+ORDER BY
+
+Used to sort data.
+
+Ascending:
+
+ORDER BY id ASC;
+
+Output:
+
+1
+2
+3
+4
+
+Descending:
+
+ORDER BY id DESC;
+
+Output:
+
+4
+3
+2
+1
+
+---------------------------------
+
+LENGTH()
+
+Returns the length of a string.
+
+Example:
+
+LENGTH('Hello')
+
+Output:
+
+5
+
+Example:
+
+SELECT tweet_id
+FROM Tweets
+WHERE LENGTH(content) > 15;
+
+---------------------------------
+
+Problems Solved
+
+✅ Big Countries
+
+✅ Article Views I
+
+✅ Invalid Tweets
+
+---------------------------------
+
+One Line Revision
+
+SELECT retrieves data, WHERE filters data, DISTINCT removes duplicates, ORDER BY sorts data, LENGTH returns string length.
