@@ -1,0 +1,92 @@
+INTERVIEW QUESTIONS
+
+1. What is a JOIN?
+
+A JOIN combines rows from two or more tables using a common column.
+
+--------------------------------
+
+2. What is INNER JOIN?
+
+INNER JOIN returns only matching rows from both tables.
+
+--------------------------------
+
+3. What is LEFT JOIN?
+
+LEFT JOIN returns all rows from the left table and matching rows from the right table.
+
+If there is no match,
+NULL is returned.
+
+--------------------------------
+
+4. What is the ON clause?
+
+The ON clause specifies how tables should be matched.
+
+Example:
+
+ON Employees.id = EmployeeUNI.id
+
+--------------------------------
+
+5. Difference between INNER JOIN and LEFT JOIN?
+
+INNER JOIN
+
+Returns only matching rows.
+
+LEFT JOIN
+
+Returns all left table rows and matching right table rows.
+
+--------------------------------
+
+6. What is a Common Column?
+
+A column present in both tables used for matching.
+
+Example:
+
+product_id
+
+department_id
+
+id
+
+--------------------------------
+
+7. What are Aliases?
+
+Short names assigned to tables.
+
+Example:
+
+Sales s
+
+Product p
+
+--------------------------------
+
+8. Why use JOINs?
+
+To combine related information stored in multiple tables.
+
+--------------------------------
+
+30 SECOND REVISION
+
+✅ JOIN = Combine Tables
+
+✅ INNER JOIN = Matching Rows Only
+
+✅ LEFT JOIN = All Left Rows
+
+✅ ON = Matching Condition
+
+✅ Common Column Required
+
+✅ NULL Appears in LEFT JOIN when no match exists
+
+✅ Aliases Improve Readability

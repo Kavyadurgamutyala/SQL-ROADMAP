@@ -1,0 +1,88 @@
+SQL DAY 03
+
+JOINS
+
+What is a JOIN?
+
+A JOIN combines rows from two or more tables using a related column.
+
+Why Use JOIN?
+
+Data is usually stored across multiple tables.
+
+JOIN helps combine related information.
+
+Types Learned
+
+1. INNER JOIN
+
+Returns only matching rows from both tables.
+
+Syntax:
+
+SELECT columns
+FROM Table1
+INNER JOIN Table2
+ON Table1.id = Table2.id;
+
+Example:
+
+Employees
+Departments
+
+Common Column:
+
+department_id
+
+--------------------------------
+
+2. LEFT JOIN
+
+Returns all rows from the left table and matching rows from the right table.
+
+If no match exists,
+NULL is returned.
+
+Syntax:
+
+SELECT columns
+FROM Table1
+LEFT JOIN Table2
+ON Table1.id = Table2.id;
+
+--------------------------------
+
+ON Clause
+
+Used to specify the matching condition.
+
+Example:
+
+ON Employees.department_id =
+Departments.department_id
+
+--------------------------------
+
+Aliases
+
+Used to shorten table names.
+
+Example:
+
+Sales s
+
+Product p
+
+--------------------------------
+
+Problems Solved
+
+✅ Replace Employee ID With The Unique Identifier
+
+✅ Product Sales Analysis I
+
+--------------------------------
+
+One Line Revision
+
+JOIN combines related data from multiple tables using a common column.
