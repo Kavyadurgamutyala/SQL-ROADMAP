@@ -1,0 +1,53 @@
+SQL DAY04
+
+AGGREGATION BASICS
+
+COUNT()
+
+Used to count records.
+
+Example:
+
+SELECT COUNT(*)
+FROM Employee;
+
+GROUP BY
+
+Used to group rows having the same value.
+
+Example:
+
+SELECT department,
+       COUNT(*)
+FROM Employee
+GROUP BY department;
+
+NULL CHECK
+
+Check NULL values using:
+
+IS NULL
+
+Example:
+
+WHERE transaction_id IS NULL
+
+Why GROUP BY?
+
+To calculate results for each group separately.
+
+Example:
+
+Each customer
+
+Each department
+
+Each product
+
+Problem Solved
+
+✅ Customer Who Visited But Did Not Make Any Transactions
+
+One Line Revision
+
+GROUP BY groups rows and COUNT() counts records within each group.

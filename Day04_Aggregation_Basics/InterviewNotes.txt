@@ -1,0 +1,49 @@
+INTERVIEW QUESTIONS
+
+1. What is COUNT()?
+
+COUNT() returns the number of rows.
+
+2. What is GROUP BY?
+
+GROUP BY groups rows that share the same value.
+
+3. Why use GROUP BY?
+
+To perform aggregation for each group.
+
+4. How do you check for NULL values?
+
+IS NULL
+
+5. Difference between = NULL and IS NULL?
+
+Correct:
+IS NULL
+
+Wrong:
+= NULL
+
+6. What is Aggregation?
+
+Performing calculations on groups of rows.
+
+Examples:
+
+COUNT
+SUM
+AVG
+MIN
+MAX
+
+30 SECOND REVISION
+
+✅ COUNT()
+
+✅ GROUP BY
+
+✅ IS NULL
+
+✅ Aggregation
+
+✅ Customer-wise Counting
