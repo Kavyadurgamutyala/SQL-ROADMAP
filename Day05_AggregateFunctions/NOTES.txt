@@ -1,0 +1,69 @@
+AGGREGATE FUNCTIONS
+
+Aggregate functions perform calculations on multiple rows and return a single value.
+
+Functions Learned
+
+COUNT()
+
+Counts rows.
+
+Example:
+
+SELECT COUNT(*)
+FROM Employee;
+
+SUM()
+
+Adds values.
+
+Example:
+
+SELECT SUM(salary)
+FROM Employee;
+
+AVG()
+
+Returns average value.
+
+Example:
+
+SELECT AVG(salary)
+FROM Employee;
+
+MIN()
+
+Returns smallest value.
+
+Example:
+
+SELECT MIN(salary)
+FROM Employee;
+
+MAX()
+
+Returns largest value.
+
+Example:
+
+SELECT MAX(salary)
+FROM Employee;
+
+GROUP BY
+
+Groups rows having the same values.
+
+Example:
+
+SELECT department,
+COUNT(*)
+FROM Employee
+GROUP BY department;
+
+Problem Solved
+
+✅ Average Time of Process per Machine
+
+One Line Revision
+
+Aggregate functions calculate values across multiple rows.

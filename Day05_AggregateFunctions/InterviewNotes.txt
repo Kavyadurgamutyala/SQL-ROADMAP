@@ -1,0 +1,61 @@
+INTERVIEW QUESTIONS
+
+1. What is COUNT()?
+
+Counts total rows.
+
+2. What is SUM()?
+
+Returns total sum.
+
+3. What is AVG()?
+
+Returns average.
+
+4. What is MIN()?
+
+Returns minimum value.
+
+5. What is MAX()?
+
+Returns maximum value.
+
+6. What is GROUP BY?
+
+Groups rows with common values.
+
+7. Why use Aggregate Functions?
+
+To perform calculations on multiple rows.
+
+8. What is ROUND()?
+
+Rounds numerical values.
+
+Examples
+
+COUNT()
+
+SUM()
+
+AVG()
+
+MIN()
+
+MAX()
+
+30 SECOND REVISION
+
+✅ COUNT
+
+✅ SUM
+
+✅ AVG
+
+✅ MIN
+
+✅ MAX
+
+✅ GROUP BY
+
+✅ ROUND
